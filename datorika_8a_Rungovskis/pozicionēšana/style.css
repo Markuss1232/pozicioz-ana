@@ -1,0 +1,37 @@
+/* Te būs stils*/
+/* mācos rakstīt css elementu kodu*/
+div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: rgb(168, 6, 6);
+    line-height: 100px;
+    margin: 50px;
+    } 
+    .pirmais {
+        background-color: red; 
+    }
+    .otrais {
+        background-color: green;
+        position: relative;
+ top: 50px; /* Pārvietosim par 50 pikseļiem uz leju */
+ left: 50px; /* Pārvietosim par 50 pikseļiem pa labi */
+ } 
+        
+        .tresais {
+        background-color: rgba(17, 17, 119, 0.895);
+        position: absolute;
+ top: 100px; /* Novietosim to 100 pikseļu
+attālumā no lapas augšas */
+ left: 100px; /* Novietosim to 100 pikseļu
+attālumā no lapas kreisās malas */
+ } 
+
+        
+        .ceturtais {
+            background-color: rgb(234, 0, 255);
+            position: static;
+            border-radius:20px ;
+
+            }
+       
